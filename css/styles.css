@@ -11361,8 +11361,8 @@ html {
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  background: #ffba0a;
 }
 
 .sidebar-nav li a:active,
