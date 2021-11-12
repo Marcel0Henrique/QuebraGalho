@@ -11570,3 +11570,15 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+
+.btn_login a{
+  display: block ;
+  color: black !important;
+  font-weight: bold;
+  background-color: white !important;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
