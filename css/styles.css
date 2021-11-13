@@ -11381,12 +11381,12 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: #ffba0a;
   text-decoration: none;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #ffba0a;
   background: none;
 }
 
@@ -11573,6 +11573,7 @@ footer.footer .social-link:hover {
 
 
 .btn_login a{
+  font-size: 14px;
   display: block ;
   color: black !important;
   font-weight: bold;
@@ -11587,5 +11588,34 @@ footer.footer .social-link:hover {
   color: black !important;
   background-color: #ffba0a !important;
   
+}
+
+@font-face { 
+  font-family: 'nexa rust';
+  src: url('/assets/fonts/nexa-rust-sans-black.otf');
+  src: local('nexa rust'), local('nexa rust'), url('/assets/fonts/nexa-rust-sans-black.otf') format('truetype');
+}
+
+@font-face { 
+  font-family: 'phenomena';
+  src: url('/assets/fonts/phenomena-bold.otf');
+  src: local('phenomena'), local('phenomena'), url('/assets/fonts/phenomena-bold.otf') format('truetype');
+}
+
+
+.fonte {
+   font-family: 'nexa rust';
+   color: black;
+}
+.sub-fonte{
+  font-family: 'phenomena';
+  font-size: 17px;
+}
+
+
+
+.fonte-menu {
+  font-family: 'nexa rust';
+  color: #ffba0a !important;
 }
 
